@@ -4,7 +4,6 @@ def register():
     username_info = username.get()
     password_info = password.get()
 
-
     file = open(username_info + "_login.txt","w")
     file.write("Username: "+username_info +"\n")
     file.write("Password: "+password_info)
@@ -12,7 +11,6 @@ def register():
 
     username_entry.delete(0, "end")
     password_entry.delete(0, "end")
-
     Label(screen0, text = "Registration success", fg = "green", font = ("arial", 13)).pack()
 
 def sign_in():
