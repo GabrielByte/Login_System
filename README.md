@@ -6,5 +6,10 @@ Press sign in, other window will show up, then type your name and a password, pr
 the username and password will be deleted.
 So then the program will create a txt file with the username (username_login.txt), and there you will see the username and their password.
 
+![](screenshots/register0.png)
+![](screenshots/sign_in0.png)
+![](screenshots/sign_in1.png)
+![](screenshots/register1.png)
+
 # Log in
 Working on it!!
